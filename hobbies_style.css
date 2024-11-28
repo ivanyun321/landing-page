@@ -15,11 +15,12 @@ header {
     text-decoration: none;
     font-size: 18px;
     justify-content: center;
+    max-width: 250px;
 }
 
 .images-container {
-    padding: 50px 350px 0px 350px;
+    padding: 25px;
     display: flex;
     margin-bottom: 30px;
+    justify-content: space-evenly;
 }
-

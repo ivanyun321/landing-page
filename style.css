@@ -38,6 +38,8 @@ body {
     font-size: 18px;
     justify-content: center;
     color: #6f8fcf;
+    max-width: 150px;
+    
 }
 
 .header a {
