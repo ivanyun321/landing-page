@@ -92,6 +92,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 30px;
+    gap: 50px;
 }
 
 .responsive-image{

@@ -51,4 +51,5 @@ p {
     max-width: 750px;
     height: auto;
     border-radius: 8px;
+    gap: 500px;
 }
