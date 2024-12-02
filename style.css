@@ -93,3 +93,22 @@ body {
     justify-content: space-evenly;
     margin-bottom: 30px;
 }
+
+.responsive-image{
+    max-width: 100%;
+    height: auto;
+}
+
+.images-container img {
+    height: 30vw;
+    max-height: 450px;
+    width: auto;
+    border-radius: 8px;
+}
+
+.welcome-container img {
+    width: 20vw;
+    max-width: 400px;
+    margin: 0 auto;
+    display: block;
+}

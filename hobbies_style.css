@@ -19,15 +19,15 @@ p {
 }
 
 .Polytopia {
-    max-width: 450px;
+    max-width: 20vw;
 }
 
 .go {
-    max-width: 568px;
+    max-width: 20vw;
 }
 
 .guitar {
-    max-width: 375px;
+    max-width: 20vw;
 }
 .images-container {
     padding: 25px;
@@ -38,4 +38,17 @@ p {
 
 .rounded-image {
     border-radius: 15px
+}
+
+.responsive-image {
+    max-width: 750px;
+    width: 100%;
+    height: auto;
+}
+
+.images-container img {
+    width: 20vw;
+    max-width: 750px;
+    height: auto;
+    border-radius: 8px;
 }
