@@ -12,7 +12,8 @@
             <div class="logo">Ivan Yun's Website</div>
             <div class="header-links">
                 <ul>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="https://www.linkedin.com/in/ivan-yun-516992223/">LinkedIn</a></li>
+                    <li><a href="">ivanyun@berkeley.edu</a></li>
                     <li><a href="hobbies.html">Hobbies</a></li>
                 </ul>
             </div>
@@ -20,9 +21,9 @@
         <div class="welcome-container">
             <div class="title">
                 <h1>Hello!</h1>
-                <p>I'm a senior studying Data Science at UC Berkeley!
+                <p>I'm Ivan, a senior studying Data Science & Molecular Environmental Biology at UC Berkeley!
                     I am interested in the fields of data science and computer science, and you can find some of my projects linked below. 
-                    Please don't hesitate to reach out or connect with me through the contacts page above.</p>
+                    Please don't hesitate to reach out to my email or connect with me on LinkedIn!</p>
             </div>
            <img src="tempestupdated.png" width="400">
         </div>
@@ -31,15 +32,39 @@
         <h1>Projects</h1>
         <div class="images-container">
             <div>
-                <div class="illustration"><img src="2048_demo.gif" width="250" height="250"></div>
+                <div class="illustration"><img id="gif1" src="BYOW_image.png" alt="Hover to play GIF" width="500" height="500">
+                <script>
+                    const gifElement = document.getElementById('gif1');
+
+                    gifElement.addEventListener('mouseenter', () => {
+                        gifElement.src='BYOW_demo.gif';
+                    });
+
+                    gifElement.addEventListener('mouseleave', () => {
+                        gifElement.src='BYOW_image.png';
+                    })
+                </script>
+                </div>
                 <a href="https://github.com/ivanyun321/BYOW">Build Your Own World</a>
             </div>
             <div>
-                <div class="illustration"><img src="BYOW_demo.gif" width="250" height="250"></div>
+                <div class="illustration"><img src="gitlet_demo.png" height="500"></div>
                 <a href="https://github.com/ivanyun321/Gitlet">Version Control System (Gitlet)</a>
             </div>
             <div>
-                <div class="illustration"><img src="gitlet_demo.png" width="250" height="250"></div>
+                <div class="illustration"><img id="gif2" src="2048_image.png" alt="Hover to play GIF" width="500" height="500">
+                    <script>
+                        const gifElement2 = document.getElementById('gif2');
+
+                        gifElement2.addEventListener('mouseenter', () => {
+                            gifElement2.src='2048_demo.gif';
+                        });
+
+                        gifElement2.addEventListener('mouseleave', () => {
+                            gifElement2.src='2048_image.png';
+                        });
+                    </script>
+                </div>
                 <a href="https://github.com/ivanyun321/2048">2048</a>
             </div>
         </div>

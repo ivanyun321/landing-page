@@ -10,17 +10,32 @@ header {
     font-weight: bold;
 }
 
-.polychamps p {
+p {
     display: flex;
     text-decoration: none;
     font-size: 18px;
-    justify-content: center;
-    max-width: 250px;
+    justify-content: space-evenly;
+    text-align: center;
 }
 
+.Polytopia {
+    max-width: 450px;
+}
+
+.go {
+    max-width: 568px;
+}
+
+.guitar {
+    max-width: 375px;
+}
 .images-container {
     padding: 25px;
     display: flex;
     margin-bottom: 30px;
     justify-content: space-evenly;
+}
+
+.rounded-image {
+    border-radius: 15px
 }
