@@ -93,31 +93,3 @@ body {
     justify-content: space-evenly;
     margin-bottom: 30px;
 }
-
-
-.credit {
-    margin: 0px 0px 0px auto;
-    padding-right: 50px;
-}
-
-.blue-container {
-    background-color: #3882F6;
-    border-radius: 10px;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    padding: 50px 120px;
-    margin: 100px 350px;
-}
-
-.blue-title {
-    font-weight: bold;
-    font-size: 25px;
-}
-
-.footer {
-    background-color: #1F2937;
-    color: white;
-    text-align: center;
-    padding: 35px;
-}
