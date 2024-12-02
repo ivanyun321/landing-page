@@ -100,8 +100,8 @@ body {
 }
 
 .images-container img {
-    width: 30vw;
-    max-width: 500px;
+    width: 40vw;
+    max-width: 750px;
     height: auto;
     border-radius: 8px;
 }
